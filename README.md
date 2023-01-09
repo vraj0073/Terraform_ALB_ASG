@@ -1,1 +1,2 @@
 # Terraform_ALB_ASG
+Created a sophisticated AWS VPC with public and private subnets that spans two Availability Zones. It has both a NAT gateway and an internet gateway installed. There are established public and private route tables. Application load balancer is balancing the load across two availability zones and Auto Scaling Group (ALB) is helping scale up or scale down the infrastructure as per the intensity of traffic. To safeguard all network communication between the different components, security groups have been developed and put into use.
